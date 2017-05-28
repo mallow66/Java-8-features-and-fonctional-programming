@@ -30,6 +30,12 @@ public class Person {
         this.email = email;
     }
 
+    public Person(String firstName) {
+        this() ;
+        this.firstName = firstName;
+
+    }
+
     public UUID getId() {
         return id;
     }
