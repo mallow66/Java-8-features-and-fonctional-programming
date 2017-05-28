@@ -36,6 +36,13 @@ public class Person {
 
     }
 
+    public Person(String firstName, String lastName, String adresse) {
+        this.firstName  = firstName;
+        this.lastName = lastName;
+        this.adresse = adresse;
+
+    }
+
     public UUID getId() {
         return id;
     }

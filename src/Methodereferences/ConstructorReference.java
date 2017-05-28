@@ -1,5 +1,6 @@
 package Methodereferences;
 
+import FuntionalInterfaces.MyFunctionalIntefaces.TriFunction;
 import Model.Person;
 
 import java.time.Period;
@@ -47,6 +48,23 @@ public class ConstructorReference {
 
         System.out.print(listPerson1);
         System.out.println(listPerson2);
+
+        /*
+        We saw how to transform zero-, one-, and two-argument constructors into constructor
+        references. What would we need to do in order to use a constructor reference for a
+        three-argument constructor such as Person(String, String, String)?
+
+        Answer :: we can create our own generic functional interface (TriFunction) ::
+
+         */
+
+
+        //Using a lambda ::
+        TriFunction<String, String, String, Person> triFunction1 = (firstName,lastName,adresse) ->new Person(firstName, lastName, adresse);
+
+
+        //Using a reference constructor ::
+        TriFunction<String, String, String, Person> triFunction2 = Person::new;
 
 
 
