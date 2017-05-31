@@ -1,4 +1,4 @@
-package ComposingFunctions;
+package FunctionalProgramming.ComposingFunctions;
 
 import sun.rmi.server.InactiveGroupException;
 
