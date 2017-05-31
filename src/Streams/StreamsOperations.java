@@ -95,12 +95,42 @@ public class StreamsOperations {
 
 
 
-        List<String > words = Arrays.asList("Hello", "Bonjour");
+         /*
+
+      Using flatMap to find the unique characters from a list of
+      words
+        */
+        List<String > words = Arrays.asList("Hello", "World");
        words.stream()
                 .map(w -> w.split(""))
                 .flatMap(Arrays::stream)
                 .distinct()
                 .forEach(System.out::println);
+
+
+
+       /*
+        return a list of the square of each number in the list bellow
+        */
+       System.out.println("List of squares :: ");
+       List<Integer> squares = Arrays.asList(1, 2, 3, 4, 5, 6);
+       squares.stream()
+               .map( n -> n*n)
+               .forEach(System.out::println);
+
+       /*
+       Given two lists of numbers, how would you return all pairs of numbers? For example, given a
+        list [1, 2, 3] and a list [3, 4] you should return [(1, 3), (1, 4), (2, 3), (2, 4), (3, 3), (3, 4)]. For
+        simplicity, you can represent a pair as an array with two elements.
+        Answer:
+        */
+
+       List<Integer> numbers1 = Arrays.asList(1, 2, 3);
+       List<Integer> numbers2 = Arrays.asList(3, 4);
+
+
+
+
 
 
     }
