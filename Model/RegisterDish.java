@@ -1,4 +1,4 @@
-package Model;
+package FunctionalProgramming.Model;
 
 import java.util.ArrayList;
 import java.util.List;

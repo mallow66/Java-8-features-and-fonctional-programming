@@ -1,7 +1,7 @@
-package Methodereferences;
-import FuntionalInterfaces.MyFunctionalIntefaces.StringLengthInteface;
-import Model.Person;
-import Model.RegisterPerson;
+package FunctionalProgramming.Methodereferences;
+import FunctionalProgramming.FuntionalInterfaces.MyFunctionalIntefaces.StringLengthInteface;
+import FunctionalProgramming.Model.Person;
+import FunctionalProgramming.Model.RegisterPerson;
 import java.util.Comparator;
 import java.util.function.BiPredicate;
 import java.util.function.Function;

@@ -1,7 +1,7 @@
-package FuntionalInterfaces;
+package FunctionalProgramming.FuntionalInterfaces;
 
-import Model.Person;
-import Model.RegisterPerson;
+import FunctionalProgramming.Model.Person;
+import FunctionalProgramming.Model.RegisterPerson;
 
 import java.util.List;
 import java.util.function.Predicate;

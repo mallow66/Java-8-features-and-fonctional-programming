@@ -1,7 +1,7 @@
-package FuntionalInterfaces;
+package FunctionalProgramming.FuntionalInterfaces;
 
-import Model.Person;
-import Model.RegisterPerson;
+import FunctionalProgramming.Model.Person;
+import FunctionalProgramming.Model.RegisterPerson;
 
 import java.util.LinkedList;
 import java.util.List;

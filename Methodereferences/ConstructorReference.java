@@ -1,7 +1,7 @@
-package Methodereferences;
+package FunctionalProgramming.Methodereferences;
 
-import FuntionalInterfaces.MyFunctionalIntefaces.TriFunction;
-import Model.Person;
+import FunctionalProgramming.FuntionalInterfaces.MyFunctionalIntefaces.TriFunction;
+import FunctionalProgramming.Model.Person;
 
 import java.time.Period;
 import java.util.ArrayList;

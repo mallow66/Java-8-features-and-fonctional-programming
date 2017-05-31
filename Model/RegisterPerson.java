@@ -1,4 +1,4 @@
-package Model;
+package FunctionalProgramming.Model;
 
 import java.util.LinkedList;
 import java.util.List;

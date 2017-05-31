@@ -1,7 +1,7 @@
-package Streams;
+package FunctionalProgramming.Streams;
 
-import Model.Dish;
-import Model.RegisterDish;
+import FunctionalProgramming.Model.Dish;
+import FunctionalProgramming.Model.RegisterDish;
 
 import java.util.Arrays;
 import java.util.List;

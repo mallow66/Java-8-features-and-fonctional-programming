@@ -1,4 +1,4 @@
-package Model;
+package FunctionalProgramming.Model;
 
 /**
  * Created by brahim on 5/31/17.

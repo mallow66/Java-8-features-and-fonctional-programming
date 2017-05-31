@@ -1,6 +1,6 @@
-package FuntionalInterfaces;
-import Model.Person;
-import Model.RegisterPerson;
+package FunctionalProgramming.FuntionalInterfaces;
+import FunctionalProgramming.Model.Person;
+import FunctionalProgramming.Model.RegisterPerson;
 import java.util.function.Consumer;
 
 /**

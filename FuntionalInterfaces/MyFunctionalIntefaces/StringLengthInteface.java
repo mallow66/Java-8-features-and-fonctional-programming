@@ -1,4 +1,4 @@
-package FuntionalInterfaces.MyFunctionalIntefaces;
+package FunctionalProgramming.FuntionalInterfaces.MyFunctionalIntefaces;
 /**
  * Created by brahim on 5/28/17.
  */

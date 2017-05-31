@@ -1,9 +1,9 @@
-package Streams;
+package FunctionalProgramming.Streams;
 
-import FuntionalInterfaces.MyFunctionalIntefaces.StringLengthInteface;
-import Model.Dish;
-import Model.RegisterDish;
-import Model.RegisterPerson;
+import FunctionalProgramming.FuntionalInterfaces.MyFunctionalIntefaces.StringLengthInteface;
+import FunctionalProgramming.Model.Dish;
+import FunctionalProgramming.Model.RegisterDish;
+import FunctionalProgramming.Model.RegisterPerson;
 
 import java.util.*;
 import java.util.function.Function;

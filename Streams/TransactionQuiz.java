@@ -1,7 +1,7 @@
-package Streams;
+package FunctionalProgramming.Streams;
 
-import Model.Trader;
-import Model.Transaction;
+import FunctionalProgramming.Model.Trader;
+import FunctionalProgramming.Model.Transaction;
 
 import java.util.Arrays;
 import java.util.Comparator;
