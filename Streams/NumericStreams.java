@@ -97,12 +97,54 @@ public class NumericStreams {
 
                 IntStream.rangeClosed(1, 100)
                 .filter(n -> n%2 == 0)
-                .forEach(System.out::print);
+                .forEach(System.out::println);
 
 
         /*
          Putting numerical streams into practice: Pythagorean triples
         */
+
+        System.out.println("Pythagorean triples");
+         class PythagoreTriple{
+
+             private Integer a, b, c;
+             public PythagoreTriple(Integer a, Integer b){
+                 this.a = a;
+                 this.b = b;
+                 this.c = (int)Math.sqrt(a*a+b*b);
+             }
+
+             @Override
+             public String toString(){
+                 return "("+a+","+b+","+c+"); ";
+             }
+        }
+
+        System.out.println("Pythagorean triples assuming that a is known");
+
+        int a1 = 100;
+
+                 IntStream.rangeClosed(1, 100)
+                .filter(b -> Math.sqrt(a1*a1+b*b)%1.0 == 0)
+                .boxed()
+                .map(b -> new PythagoreTriple(a1, b))
+                         .forEach(System.out::println);
+
+
+        System.out.println("A solution assuming that we must generate a and b");
+
+        Stream<PythagoreTriple> p =
+        IntStream.rangeClosed(1, 100)
+                .boxed()
+                .flatMap( a-> IntStream.rangeClosed(1,100)
+                                .filter(b -> Math.sqrt(a*a + b*b)%1.0 == 0)
+                                .mapToObj( b -> new PythagoreTriple(a, b))
+
+                );
+
+
+        p.forEach(System.out::println);
+
 
 
     }
